@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    
+
+
+}
+
+.main{
+    display: flex;
+    margin: 15vh 15vw;
+    width: 100%;
+
+    
+    
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 25vw;
+    padding: 5%;
+
+}
+
+.sedan{
+    background-color:  hsl(31, 77%, 52%);
+    
+    
+    
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.h-shift{
+    color:  hsl(0, 0%, 95%);
+    margin-top: 5vh;
+    padding: 2px 5px;
+    font-size: 2.2em;
+    
+ 
+}
+
+.p-car{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 10px;
+    line-height: 1.5em;
+
+}
+
+.cte{
+    color:  hsl(31, 77%, 52%);
+    margin-top: 10vh;
+    text-decoration: none;
+    align-self: center;
+    width: 100%;
+    padding: 10px 2px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color:  hsl(0, 0%, 95%);
+    border-radius: 5vh;
+    
+
+}
+.cta{
+    color:  hsl(184, 100%, 22%);
+    margin-top: 10vh;
+    text-decoration: none;
+    align-self: center;
+    width: 100%;
+    padding: 10px 2px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color:  hsl(0, 0%, 95%);
+    border-radius: 5vh;
+    
+}
+   
+.cti{
+    color:  hsl(179, 100%, 13%);
+    margin-top: 10vh;
+    text-decoration: none;
+    align-self: center;
+    width: 100%;
+    padding: 10px 2px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color:  hsl(0, 0%, 95%);
+    border-radius: 5vh;
+}
+.cta:hover{
+    cursor: pointer;
+     color: hsl(0, 0%, 95%);
+}
+.cte:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+}
+.cti:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+}
+
